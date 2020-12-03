@@ -8,6 +8,8 @@ function Heading() {
 
   const customStyle = {
     color: "",
+    fontSize: "3rem",
+    width: "100%",
   };
 
   if (currentTime < 12) {
@@ -23,9 +25,7 @@ function Heading() {
 
   return (
     <div>
-      <h1 className="heading" style={customStyle}>
-        {greeting}
-      </h1>
+      <h1 style={customStyle}>{greeting}</h1>
     </div>
   );
 }

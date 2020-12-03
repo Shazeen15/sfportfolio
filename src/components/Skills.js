@@ -7,7 +7,7 @@ import sass from "./img/sass.png";
 function Skills() {
   return (
     <div className="skill">
-      <p>My Skills</p>
+      <h2>My Skills</h2>
       <div>
         <img src={html} alt="" />
         <img src={css} alt="" />

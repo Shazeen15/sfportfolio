@@ -132,18 +132,32 @@ table {
 #02FFE6 - #cadefc - #C3BEF0 - #CCA8E9 
 #FAF5FF - #E9D8FD - #D6BCFA - #B794F4 - #9F7AEA - #805AD5 - #553C9A - #44337A
 #263238
+font-family: 'Nerko One', cursive;
+
 
 */
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
 }
+
+h1,
+h2,
+a {
+  font-family: "Nerko One", cursive;
+}
+
 /* App file */
 .myNamePicture {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.myNamePicture h1 {
+  font-size: 3rem;
+  color: #805ad5;
+}
+
 img {
   width: 200px;
   margin: 2%;
@@ -164,19 +178,33 @@ a {
 /* home file */
 .home {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.home h2 {
+  margin: 2%;
+  font-size: 2rem;
+  color: #cca8e9;
+}
+
 a {
   margin: 1rem;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #44337a;
 }
 
 /* about page styles */
 
-h1 {
-  font-size: 2rem;
+.about h1 {
+  text-align: center;
   margin: 2%;
+  font-size: 2rem;
+  color: #cca8e9;
 }
 
 p {
@@ -208,12 +236,19 @@ hr {
   flex-wrap: wrap;
 }
 
-/* projects page */
-.projectTitle {
+.skill h2 {
   text-align: center;
+  margin: 2%;
   font-size: 2rem;
-  color: #263238;
-  font-weight: bold;
+  color: #cca8e9;
+}
+
+/* projects page */
+.project h2 {
+  text-align: center;
+  margin: 2%;
+  font-size: 2rem;
+  color: #cca8e9;
 }
 
 .foodTruck {

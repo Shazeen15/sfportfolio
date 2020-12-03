@@ -1,8 +1,8 @@
 // import truckTracker from "./img/truckTracker.png";
 function Projects() {
   return (
-    <div>
-      <p className="projectTitle">Projects Page!</p>
+    <div className="project">
+      <h2>Projects Page</h2>
       {/* <img src={truckTracker} alt="" /> */}
       <div className="con1">
         {/* food truck project */}

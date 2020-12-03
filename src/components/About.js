@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div>
+    <div className="about">
       <h1>How did I get started with coding?</h1>
       <p>
         I graduated with a Masters Degree in Clinical Mental Health Counseling
