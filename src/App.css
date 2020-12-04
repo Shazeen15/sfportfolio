@@ -158,9 +158,12 @@ a {
   color: #805ad5;
 }
 
-img {
-  width: 200px;
+.myNamePicture img {
   margin: 2%;
+  border-radius: 50%;
+  border: 7px solid #cca8e9;
+  width: 130px;
+  height: 130px;
 }
 
 nav {
