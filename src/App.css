@@ -141,7 +141,6 @@ body {
   font-size: 1.2rem;
   background-color: #e9d8fd;
   background-image: url("/src/wild-flowers.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 h1,
@@ -173,7 +172,8 @@ nav {
   display: flex;
   justify-content: space-evenly;
   padding: 2%;
-  background: #cca8e9;
+  background-color: #cca8e9;
+  background-image: url("/src/tileable-wood.png");
 }
 
 a {
