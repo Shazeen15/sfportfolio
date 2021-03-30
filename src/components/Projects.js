@@ -3,13 +3,12 @@ function Projects() {
   return (
     <div className="project">
       <h2>Projects Page</h2>
-      {/* <img src={truckTracker} alt="" /> */}
       <div className="con1">
         {/* food truck project */}
-        <div className="foodTruck">
+        <div className="projects">
           <a
             className="siteLink"
-            href="https://food-truck-tracker.vercel.app/login"
+            href="https://github.com/Food-Truck-Tracker-TT7/frontend"
             target="_blank"
             without
             rel="noreferrer"
@@ -27,10 +26,10 @@ function Projects() {
           </a>
         </div>
         {/* quiz project */}
-        <div className="quizApp">
+        <div className="projects">
           <a
             className="siteLink"
-            href="https://tandem-trivia.herokuapp.com/"
+            href="https://github.com/Shazeen15/tandem-trivia-app"
             target="_blank"
             without
             rel="noreferrer"
@@ -48,10 +47,10 @@ function Projects() {
           </a>
         </div>
         {/* nasa page */}
-        <div className="nasa">
+        <div className="projects">
           <a
             className="siteLink"
-            href="https://nasa-apod-sf.netlify.app/"
+            href="https://github.com/Shazeen15/nasa-apod"
             target="_blank"
             without
             rel="noreferrer"
@@ -69,10 +68,10 @@ function Projects() {
           </a>
         </div>
         {/* rick page */}
-        <div className="rick">
+        <div className="projects">
           <a
             className="siteLink"
-            href="https://rickmortycharacters-sf.netlify.app/"
+            href="https://github.com/Shazeen15/rickandmorty"
             target="_blank"
             without
             rel="noreferrer"
@@ -82,6 +81,28 @@ function Projects() {
           <a
             className="githubLink"
             href="https://github.com/Shazeen15/rickandmorty"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+
+        {/* Potluck */}
+        <div className="projects">
+          <a
+            className="siteLink"
+            href="https://github.com/PotluckPlanner-TT7/Frontend"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            PotLucks
+          </a>
+          <a
+            className="githubLink"
+            href="https://github.com/PotluckPlanner-TT7/Frontend"
             target="_blank"
             without
             rel="noreferrer"

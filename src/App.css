@@ -257,40 +257,10 @@ hr {
   color: #cca8e9;
 }
 
-.foodTruck {
-  background: url("./components/img/truckTracker.png");
-  /* filter: blur(8px); */
+.projects {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
-}
-
-.quizApp {
-  background: url("./components/img/quizApp.png");
-  /* filter: blur(8px); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
-}
-
-.nasa {
-  background: url("./components/img/nasa.png");
-  /* filter: blur(8px); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
-}
-
-.rick {
-  background: url("./components/img/rick.png");
-  /* filter: blur(8px); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px;
 }
 
 .con1 {
@@ -311,6 +281,6 @@ hr {
   font-size: 1.4rem;
   background: #9f7aeadb;
   text-align: center;
-  padding: 5%;
+  padding: 7% 9%;
   border-radius: 10px;
 }
