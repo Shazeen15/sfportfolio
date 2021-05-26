@@ -9,31 +9,41 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About Me</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/projects">Projects</Link>
+        <Link to="/" className="links">
+          Connect With Me
+        </Link>
+        <Link to="/about" className="links">
+          About Me
+        </Link>
+        <Link to="/skills" className="links">
+          Skills
+        </Link>
+        <Link to="/projects" className="links">
+          Projects
+        </Link>
       </nav>
-      <div className="myNamePicture">
-        <h1>Shazeen Fabius</h1>
-        <img src={me} alt="" />
-      </div>
-      <Switch>
-        <Route path="/skills">
-          <Skills />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+      <section>
+        <div className="myname-img">
+          <h1 className="my-name-title">Shazeen Fabius</h1>
+          <img src={me} alt="" className="me" />
+        </div>
+        <Switch>
+          <Route path="/skills">
+            <Skills />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </section>
     </div>
   );
 }
