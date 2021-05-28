@@ -4,3 +4,42 @@
   justify-content: space-evenly;
   align-items: center;
 }
+/* #31415D #ECDEC6 #9eb3b5*/
+.projects-title {
+  margin: 4% 0;
+}
+.box {
+  background-color: #31415d7a;
+}
+
+.siteLink {
+  color: #ecdec6;
+}
+
+.siteLink:hover {
+  color: #9eb3b5;
+}
+
+.subtitle {
+  width: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #9eb3b542;
+  padding: 1.5%;
+  border-radius: 50%;
+}
+.subtitle.java {
+  border-radius: 25%;
+}
+
+.tile.is-parent {
+  /* padding: 0; */
+}
+
+.tile.is-ancestor:last-child {
+  margin-bottom: 0;
+}
+
+.box {
+  padding: 1.25rem 1.25rem 0 1.25rem;
+}

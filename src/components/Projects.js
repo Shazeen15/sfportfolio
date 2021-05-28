@@ -1,61 +1,130 @@
-// import truckTracker from "./img/truckTracker.png";
 import "./Projects.css";
+import foodtracker from "./projectimg/foodtracker.png";
+import trivia from "./projectimg/trivia.png";
+import rickmorty from "./projectimg/rickmorty.png";
+import potlucks from "./projectimg/potlucks.png";
+import nasa from "./projectimg/nasa.png";
+import watermyplantbackend from "./projectimg/watermyplantbackend.png";
+import react from "./img/react.png";
+import java from "./img/java.png";
 function Projects() {
   return (
-    <div className="project">
+    <div className="projects-component">
       <h2 className="projects-title">Projects</h2>
-      <div className="projects-section">
+      {/* section 1 */}
+      <div class="tile is-ancestor">
         {/* food truck project */}
-        <a
-          className="siteLink"
-          href="https://github.com/Food-Truck-Tracker-TT7/frontend"
-          target="_blank"
-          without
-          rel="noreferrer"
-        >
-          Food Truck Tracker
-        </a>
+        <div className="tile is-parent">
+          <div className="tile is-child box">
+            <a
+              className="siteLink title"
+              href="https://github.com/Food-Truck-Tracker-TT7/frontend"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Food Truck Tracker
+            </a>
+            <figure class="image">
+              <img src={foodtracker} alt="foodtracker project" />
+            </figure>
+            <img src={react} alt="" className="subtitle" />
+          </div>
+        </div>
         {/* quiz project */}
-        <a
-          className="siteLink"
-          href="https://github.com/Shazeen15/tandem-trivia-app"
-          target="_blank"
-          without
-          rel="noreferrer"
-        >
-          Quiz App
-        </a>
+        <div className="tile is-parent">
+          <div className="tile is-child box">
+            <a
+              className="siteLink title"
+              href="https://github.com/Shazeen15/tandem-trivia-app"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Quiz App
+            </a>
+            <figure class="image">
+              <img src={trivia} alt="trivia project" />
+            </figure>
+            <img src={react} alt="" className="subtitle" />
+          </div>
+        </div>
         {/* nasa page */}
-        <a
-          className="siteLink"
-          href="https://github.com/Shazeen15/nasa-apod"
-          target="_blank"
-          without
-          rel="noreferrer"
-        >
-          NASA APOD
-        </a>
-        {/* rick page */}
-        <a
-          className="siteLink"
-          href="https://github.com/Shazeen15/rickandmorty"
-          target="_blank"
-          without
-          rel="noreferrer"
-        >
-          Rick and Morty Characterer
-        </a>
+        <div className="tile is-parent">
+          <div className="tile is-child box">
+            <a
+              className="siteLink title"
+              href="https://github.com/Shazeen15/nasa-apod"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              NASA APOD
+            </a>
+            <figure class="image">
+              <img src={nasa} alt="nasa project" />
+            </figure>
+            <img src={react} alt="" className="subtitle" />
+          </div>
+        </div>
+      </div>
 
+      {/* section 2 */}
+      <div class="tile is-ancestor">
+        {/* rick page */}
+        <div className="tile is-parent">
+          <div className="tile is-child box">
+            <a
+              className="siteLink title"
+              href="https://github.com/Shazeen15/rickandmorty"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Rick and Morty Characterer
+            </a>
+            <figure class="image is-4by3">
+              <img src={rickmorty} alt="rickmorty project" />
+            </figure>
+            <img src={react} alt="" className="subtitle" />
+          </div>
+        </div>
         {/* Potluck */}
-        <a
-          className="siteLink"
-          href="https://github.com/PotluckPlanner-TT7/Frontend"
-          target="_blank"
-          without
-          rel="noreferrer"
-        >
-          PotLucks
-        </a>
+        <div className="tile is-parent">
+          <div className="tile is-child box">
+            <a
+              className="siteLink title"
+              href="https://github.com/PotluckPlanner-TT7/Frontend"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              PotLucks
+            </a>
+            <figure class="image is-4by3">
+              <img src={potlucks} alt="potlucks project" />
+            </figure>
+            <img src={react} alt="" className="subtitle" />
+          </div>
+        </div>
+        {/* Water my plant */}
+        <div className="tile is-parent">
+          <div className="tile is-child box">
+            <a
+              className="siteLink title"
+              href="https://github.com/WaterMyPlant1/java-backend"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Water my plant
+            </a>
+            <figure class="image is-4by3">
+              <img src={watermyplantbackend} alt="Water my plant project" />
+            </figure>
+            <img src={java} alt="" className="subtitle java" />
+          </div>
+        </div>
       </div>
     </div>
   );
