@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about">
       <div className="about-me">
-        <div className="about-me-para">
+        <div className="about-para">
           <p>
             I graduated with a Masters Degree in Clinical Mental Health
             Counseling in May 2020. Although this was a great accomplishment, I
@@ -13,7 +13,8 @@ function About() {
             feel comfortable with the answer, or I did not know how to answer
             it.
           </p>
-          <br />
+        </div>
+        <div className="about-para">
           <p>
             For a while, I felt stuck because I didn't feel like I had many
             options. I did not want to go back to school and do another
@@ -27,7 +28,8 @@ function About() {
             pursuing a career in the Mental Health field and be unhappy, and
             that is it.
           </p>
-          <br />
+        </div>
+        <div className="about-para">
           <p>
             So how did I find coding or how coding found me. As everyone who is
             lost and have nothing to do, we go and get even more lost on
@@ -41,9 +43,6 @@ function About() {
             moment, I went to look online for courses and never looked back.
           </p>
         </div>
-        {/* <div className="background-img">
-          <img src={aboutMe} alt="" className="about-me-img" />
-        </div> */}
       </div>
     </div>
   );
