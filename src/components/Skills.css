@@ -1,3 +1,12 @@
-img.skills {
+.skills {
+  margin: 2%;
+}
+
+.skills p {
+  color: #ecdec6;
+}
+
+img.skill {
   width: 10%;
+  padding: 0.7%;
 }

@@ -10,7 +10,6 @@ import java from "./img/java.png";
 function Projects() {
   return (
     <div className="projects-component">
-      <h2 className="projects-title">Projects</h2>
       {/* section 1 */}
       <div class="tile is-ancestor">
         {/* food truck project */}
