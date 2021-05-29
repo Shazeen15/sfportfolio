@@ -22,7 +22,7 @@ function App() {
             Projects
           </Link>
         </nav>
-        <section>
+        <section className="con-2">
           <div className="myname-img">
             <div>
               <h1 className="my-name-title">Shazeen Fabius</h1>

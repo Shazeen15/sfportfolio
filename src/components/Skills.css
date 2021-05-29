@@ -10,3 +10,31 @@ img.skill {
   width: 10%;
   padding: 0.7%;
 }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .skills {
+    height: 90vh;
+  }
+
+  p.title {
+    font-size: 1.5rem;
+  }
+
+  img.skill {
+    width: 15%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .skills {
+    height: 90vh;
+  }
+
+  p.title {
+    font-size: 1.5rem;
+  }
+
+  img.skill {
+    width: 13%;
+  }
+}

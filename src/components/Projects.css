@@ -1,10 +1,10 @@
+/* #31415D #ECDEC6 #9eb3b5 #31415d7a*/
 .projects-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
-/* #31415D #ECDEC6 #9eb3b5 #31415d7a*/
 
 .box {
   background-color: #31415d7a;
@@ -30,14 +30,22 @@
   border-radius: 25%;
 }
 
-.tile.is-parent {
-  /* padding: 0; */
-}
-
 .tile.is-ancestor:last-child {
   margin-bottom: 0;
 }
 
 .box {
   padding: 1.25rem 1.25rem 0 1.25rem;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  a.siteLink.title {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  a.siteLink.title {
+    font-size: 1.5rem;
+  }
 }

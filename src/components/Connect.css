@@ -1,15 +1,18 @@
+/* #31415D #ECDEC6 #9eb3b5 #31415d7a*/
+
 .connect-component {
   display: flex;
+  justify-content: space-evenly;
   background-color: #31415d7a;
   margin-top: 2%;
 }
 
-.connect-component a {
-  padding: 1% 0;
-  display: flex;
-  justify-content: center;
+.footer-img {
+  font-size: 3rem;
+  color: #ecdec6;
+  padding: 20% 0;
 }
 
-.footer-img {
-  width: 10%;
+.footer-img:hover {
+  color: #9eb3b5;
 }
