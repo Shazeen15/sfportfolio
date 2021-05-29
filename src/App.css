@@ -159,13 +159,9 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 15%;
+  /* width: 15%; */
   height: 100vh;
   margin: 0 7% 0 2%;
-}
-
-h2 {
-  color: #9eb3b5;
 }
 
 .app {
@@ -192,4 +188,23 @@ a.links {
 
 a.links:hover {
   color: #9eb3b5;
+  background: #31415d7a;
+  padding: 7%;
+  border-radius: 10px;
+}
+
+.myname-img div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  text-align: center;
+  width: 55%;
+  color: #9eb3b5;
+  background-color: #31415d7a;
+  padding: 1% 2%;
+  border-radius: 10px;
 }

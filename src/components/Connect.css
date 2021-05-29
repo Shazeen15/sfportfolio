@@ -1,0 +1,15 @@
+.connect-component {
+  display: flex;
+  background-color: #31415d7a;
+  margin-top: 2%;
+}
+
+.connect-component a {
+  padding: 1% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-img {
+  width: 10%;
+}
