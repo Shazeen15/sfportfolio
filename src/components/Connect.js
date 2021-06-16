@@ -20,7 +20,7 @@ function Connect() {
 
       <a href="mailto:shazeenfabius@gmail.com">
         {/* <img src={mail} alt="envelop" className="footer-img" /> */}
-        <i className="fas fa-reply footer-img"></i>
+        <i class="fas fa-envelope-open footer-img"></i>
       </a>
     </div>
   );
