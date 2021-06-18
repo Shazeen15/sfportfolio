@@ -44,17 +44,6 @@ function Skills() {
           </article>
         </div>
       </div>
-      {/* tech */}
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child box">
-            <p class="title">
-              <p>Tools: Code Challenges</p>
-              <img src={python} alt="python" className="skill " />
-            </p>
-          </article>
-        </div>
-      </div>
     </div>
   );
 }
