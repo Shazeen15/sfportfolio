@@ -1,4 +1,4 @@
-import "./Projects.css";
+import "./styles/Projects.css";
 import foodtracker from "./projectimg/foodtracker.png";
 import trivia from "./projectimg/trivia.png";
 import rickmorty from "./projectimg/rickmorty.png";

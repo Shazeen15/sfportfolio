@@ -1,4 +1,4 @@
-import "./About.css";
+import "./styles/About.css";
 // import aboutMe from "./img/about-me.png";
 function About() {
   return (

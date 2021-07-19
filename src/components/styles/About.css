@@ -10,13 +10,13 @@
 }
 
 .about-para {
-  background-color: #31415d7a;
+  background-color: #31415db8;
   line-height: 1.4rem;
-  padding: 1% 7%;
+  padding: 3% 7%;
 }
 
 .about-para p {
-  color: #ecdec6;
+  color: #fee0ac;
   line-height: 1.5rem;
 }
 

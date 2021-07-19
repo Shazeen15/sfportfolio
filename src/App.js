@@ -1,5 +1,5 @@
 import me from "./components/img/shaz.png";
-import "./App.css";
+import "./styles/App.css";
 
 import { Route, Link, Switch } from "react-router-dom";
 import About from "./components/About";
