@@ -63,6 +63,14 @@ nav a:hover {
   padding: 3% 0;
 }
 
+.myname-img .subtitle {
+  text-align: center;
+  width: 55%;
+  color: #9eb3b5;
+  background-color: #31415db8;
+  padding: 1% 2%;
+}
+
 .my-name-title {
   color: #58769c;
   font-size: 3rem;
@@ -73,14 +81,6 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.subtitle {
-  text-align: center;
-  width: 55%;
-  color: #9eb3b5;
-  background-color: #31415db8;
-  padding: 1% 2%;
 }
 
 .con-2 {

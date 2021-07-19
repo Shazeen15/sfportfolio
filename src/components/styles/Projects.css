@@ -30,10 +30,6 @@ title - #58769c
   padding: 1.5%;
 }
 
-.subtitle.java {
-  border-radius: 25%;
-}
-
 .tile.is-ancestor:last-child {
   margin-bottom: 0;
 }
