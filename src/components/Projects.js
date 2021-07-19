@@ -35,7 +35,7 @@ function Projects() {
           <div className="tile is-child box">
             <a
               className="siteLink title"
-              href="https://github.com/Shazeen15/tandem-trivia-app"
+              href="https://github.com/Shazeen15/trivia-2021"
               target="_blank"
               without
               rel="noreferrer"
