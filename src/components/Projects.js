@@ -23,14 +23,14 @@ function Projects() {
               rel="noreferrer"
             >
               Food Truck Tracker
+              <figure class="image">
+                <img src={foodtracker} alt="foodtracker project" />
+              </figure>
+              <img src={react} alt="" className="subtitle" />
             </a>
-            <figure class="image">
-              <img src={foodtracker} alt="foodtracker project" />
-            </figure>
-            <img src={react} alt="" className="subtitle" />
           </div>
         </div>
-        {/* quiz project */}
+        {/* trivia project */}
         <div className="tile is-parent">
           <div className="tile is-child box">
             <a
@@ -40,12 +40,12 @@ function Projects() {
               without
               rel="noreferrer"
             >
-              Quiz App
+              Trivia App
+              <figure class="image">
+                <img src={trivia} alt="trivia project" />
+              </figure>
+              <img src={react} alt="" className="subtitle" />
             </a>
-            <figure class="image">
-              <img src={trivia} alt="trivia project" />
-            </figure>
-            <img src={react} alt="" className="subtitle" />
           </div>
         </div>
         {/* nasa page */}
@@ -59,11 +59,11 @@ function Projects() {
               rel="noreferrer"
             >
               NASA APOD
+              <figure class="image">
+                <img src={nasa} alt="nasa project" />
+              </figure>
+              <img src={react} alt="" className="subtitle" />
             </a>
-            <figure class="image">
-              <img src={nasa} alt="nasa project" />
-            </figure>
-            <img src={react} alt="" className="subtitle" />
           </div>
         </div>
       </div>
@@ -81,11 +81,11 @@ function Projects() {
               rel="noreferrer"
             >
               Rick and Morty Characterer
+              <figure class="image is-4by3">
+                <img src={rickmorty} alt="rickmorty project" />
+              </figure>
+              <img src={react} alt="" className="subtitle" />
             </a>
-            <figure class="image is-4by3">
-              <img src={rickmorty} alt="rickmorty project" />
-            </figure>
-            <img src={react} alt="" className="subtitle" />
           </div>
         </div>
         {/* Potluck */}
@@ -99,11 +99,11 @@ function Projects() {
               rel="noreferrer"
             >
               PotLucks
+              <figure class="image is-4by3">
+                <img src={potlucks} alt="potlucks project" />
+              </figure>
+              <img src={react} alt="" className="subtitle" />
             </a>
-            <figure class="image is-4by3">
-              <img src={potlucks} alt="potlucks project" />
-            </figure>
-            <img src={react} alt="" className="subtitle" />
           </div>
         </div>
         {/* Water my plant */}
@@ -117,11 +117,11 @@ function Projects() {
               rel="noreferrer"
             >
               Water my plant
+              <figure class="image is-4by3">
+                <img src={watermyplantbackend} alt="Water my plant project" />
+              </figure>
+              <img src={java} alt="" className="subtitle java" />
             </a>
-            <figure class="image is-4by3">
-              <img src={watermyplantbackend} alt="Water my plant project" />
-            </figure>
-            <img src={java} alt="" className="subtitle java" />
           </div>
         </div>
       </div>
