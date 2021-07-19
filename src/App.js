@@ -6,21 +6,14 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Connect from "./components/Connect";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
       <section className="app">
         <nav>
-          <Link to="/" className="links">
-            About Me
-          </Link>
-          <Link to="/skills" className="links">
-            Skills
-          </Link>
-          <Link to="/projects" className="links">
-            Projects
-          </Link>
+          <Header />
         </nav>
         <section className="con-2">
           <div className="myname-img">

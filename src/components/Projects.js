@@ -116,7 +116,7 @@ function Projects() {
               without
               rel="noreferrer"
             >
-              Water my plant
+              Water My Plant
               <figure class="image is-4by3">
                 <img src={watermyplantbackend} alt="Water my plant project" />
               </figure>

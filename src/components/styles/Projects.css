@@ -1,4 +1,9 @@
-/* #31415D #ECDEC6 #9eb3b5 #31415d7a*/
+/* 
+text - #9eb3b5 
+background - #31415db8
+hover - #fee0ac
+title - #58769c
+*/
 .projects-section {
   display: flex;
   flex-wrap: wrap;
@@ -7,24 +12,22 @@
 }
 
 .box {
-  background-color: #31415d7a;
+  background-color: #31415db8;
 }
 
 .siteLink {
-  color: #ecdec6;
-}
-
-.siteLink:hover {
   color: #9eb3b5;
 }
 
+.siteLink:hover {
+  color: #fee0ac;
+}
+
 .projects-component .subtitle {
-  width: 10%;
+  width: 20%;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-color: #9eb3b542;
   padding: 1.5%;
-  border-radius: 50%;
 }
 
 .subtitle.java {
