@@ -72,7 +72,10 @@ nav a:hover {
 }
 
 .my-name-title {
-  color: #58769c;
+  margin-bottom: 4%;
+  padding: 3% 4%;
+  background-color: #31415db8;
+  color: #9eb3b5;
   font-size: 3rem;
 }
 

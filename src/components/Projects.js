@@ -5,8 +5,11 @@ import rickmorty from "./projectimg/rickmorty.png";
 import potlucks from "./projectimg/potlucks.png";
 import nasa from "./projectimg/nasa.png";
 import watermyplantbackend from "./projectimg/watermyplantbackend.png";
+import travelmore from "./projectimg/travelmore.png";
 import react from "./img/react.png";
 import java from "./img/java.png";
+import rails from "./img/rails.png";
+
 function Projects() {
   return (
     <div className="projects-component">
@@ -121,6 +124,29 @@ function Projects() {
                 <img src={watermyplantbackend} alt="Water my plant project" />
               </figure>
               <img src={java} alt="" className="subtitle java" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* section 3 */}
+      <div class="tile is-ancestor">
+        {/* Travel More */}
+        <div className="tile is-parent">
+          <div className="tile is-child box">
+            <a
+              className="siteLink title"
+              href="https://github.com/dirty-martiny/react-in-rails"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Travel More
+              <figure class="image is-4by3">
+                <img src={travelmore} alt="Water my plant project" />
+              </figure>
+              <img src={react} alt="" className="subtitle java" />
+              <img src={rails} alt="" className="subtitle rails" />
             </a>
           </div>
         </div>
